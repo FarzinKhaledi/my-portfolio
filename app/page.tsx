@@ -8,11 +8,11 @@ import {
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-4xl flex-col items-center justify-center gap-8 py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans">
+      <main className="flex min-h-screen w-full max-w-4xl flex-col items-center justify-center gap-8 py-32 px-16 bg-white sm:items-start">
         {/* Button Examples Section */}
         <div className="w-full space-y-6">
-          <Typography className="text-3xl font-bold mb-6 text-gray-800 dark:text-white">
+          <Typography className="text-3xl font-bold mb-6 text-gray-800">
             MUI Buttons Styled with Tailwind CSS
           </Typography>
 
@@ -37,15 +37,15 @@ export default function Home() {
 
           {/* Outlined Buttons */}
           <div className="flex flex-wrap gap-4">
-            <Button className="border-2 border-blue-500 text-blue-600 hover:bg-blue-50 dark:hover:bg-blue-900/20 px-6 py-3 rounded-lg transition-all duration-200 font-semibold">
+            <Button className="border-2 border-blue-500 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg transition-all duration-200 font-semibold">
               Outlined Blue
             </Button>
 
-            <Button className="border-2 border-green-500 text-green-600 hover:bg-green-50 dark:hover:bg-green-900/20 px-6 py-3 rounded-lg transition-all duration-200 font-semibold">
+            <Button className="border-2 border-green-500 text-green-600 hover:bg-green-50 px-6 py-3 rounded-lg transition-all duration-200 font-semibold">
               Outlined Green
             </Button>
 
-            <Button className="border-2 border-red-500 text-red-600 hover:bg-red-50 dark:hover:bg-red-900/20 px-6 py-3 rounded-lg transition-all duration-200 font-semibold">
+            <Button className="border-2 border-red-500 text-red-600 hover:bg-red-50 px-6 py-3 rounded-lg transition-all duration-200 font-semibold">
               Outlined Red
             </Button>
           </div>
@@ -119,7 +119,7 @@ export default function Home() {
 
         {/* Other Components */}
         <div className="w-full mt-8 space-y-6">
-          <Typography className="text-2xl font-bold mb-4 text-gray-800 dark:text-white">
+          <Typography className="text-2xl font-bold mb-4 text-gray-800">
             Other MUI Components
           </Typography>
 
